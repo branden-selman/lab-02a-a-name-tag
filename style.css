@@ -1,10 +1,8 @@
-
-
 .h {
   background-color: brown;
   display: flex;
   justify-content: center;
- align-items: center;
+  align-items: center;
   flex-direction: column;
   width: 600px;
   height: 500px;
@@ -13,9 +11,10 @@
   border-radius: 7%;
 }
 .top {
-  font-size: 9rem;
+  font-size: 5;
   color: white;
   margin: 0;
+  display: flexbox
 }
 .mid {
   color: white;
@@ -34,12 +33,12 @@
   align-items: center;
 }
 
-.nameTag{
-    background-color: white;
-    width: 100vw;
-    text-align: center;
+.nameTag {
+  background-color: white;
+  width: 100vw;
+  text-align: center;
 }
 .greeting {
-    margin-bottom: 10px;
-    padding-bottom: 38px;
+  margin-bottom: 10px;
+  padding-bottom: 38px;
 }
